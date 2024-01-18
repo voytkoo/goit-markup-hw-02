@@ -1,5 +1,5 @@
 body {
-font-family: 'Roboto', sans-serif;
+font-family: 'Roboto',sans-serif;
 color: #434455;
 background-color: #FFF;
 }
@@ -10,18 +10,28 @@ ul, ol {
 list-style: none;
 }
 
+.navigation {
+ background-color: #FFF;
+}
 <!--logo-->
 .logo {
-    color: #4D5AE5;
+    color:  #4D5AE5;
     font-family: 'Raleway',sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .logo_part {
-color: #2E2F42;
+    color: #2E2F42;
+    font-family: "Raleway",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
 }
 <!--header_list-->
 
@@ -39,7 +49,7 @@ color: #2E2F42;
 <!--contacts-->
 
 .contacts {
-   font-style: normal;
+font-style: normal;
 }
 <!--contacts_list-->
 .contacts_list {
@@ -54,7 +64,7 @@ color: #2E2F42;
 }
 <!--section1-->
 .page_section {
-    background-color: #2E2F42;
+    background-color: #2e2f42;
 }
 
 .title {
@@ -109,6 +119,9 @@ background-color: #FFF;
 .section_team {
 background-color: #F4F4FD;
 }
+.team-list {
+background-color: #FFFFFF;
+}
 .team_title {
     color:  #2E2F42;
     text-align: center;
@@ -160,12 +173,12 @@ background-color: #F4F4FD;
 }
 <!--footer-->
 .page_footer {
-background-color:  #2E2F42;
+background-color:#2e2f42;
 
 }
 .page_logo {
     color:#4D5AE5;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway",sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -173,11 +186,17 @@ background-color:  #2E2F42;
     text-transform: uppercase;
 }
 .page_logo_part {
-    color:#F4F4FD;
+    color: #2E2F42;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .text {
     color:  #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 } 
