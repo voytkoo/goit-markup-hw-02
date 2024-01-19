@@ -9,34 +9,27 @@ a {
 ul, ol {
 list-style: none;
 }
-.header {
-background-color: #FFF;
-}
-.navigation {
- background-color: #FFF;
-}
 <!--logo-->
 .logo {
-color: #4D5AE5;
     font-family: Raleway, sans-serif;
+    font-weight: 700;
     font-size: 18px;
     font-style: normal;
-    font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4D5AE5;
 }
-.accent {
+.logo_part {
 color: #2E2F42;
 }
 <!--header_list-->
-
 .header_list {
-    color: #2E2F42;
-    font-size: 16px;
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 .header_list:hover,
 .header_list:focus {
@@ -44,26 +37,23 @@ color: #2E2F42;
 }
 <!--contacts-->
 
-.address {
+.contacts {
 font-style: normal;
 }
 <!--contacts_list-->
-.address_link {
-    color: #434455;
-    font-family: "Roboto", sans-serif;
+.contacts_link {
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.02em;
+    color: #434455;
 }
-.address_link:hover,
-.address_link:focus {
+.contacts_link:hover,
+.contacts_link:focus {
     color: #404BBF;
-}
+} 
 <!--section1-->
 .page_section {
- background-color: #2e2f42;
+background-color: #2E2F42;
 }
 
 .title {
@@ -118,9 +108,7 @@ background-color: #FFF;
 .section_team {
 background-color: #F4F4FD;
 }
-.team-list {
-background-color: #FFFFFF;
-}
+
 .team_title {
     color:  #2E2F42;
     text-align: center;
@@ -130,6 +118,10 @@ background-color: #FFFFFF;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+.team-list {
+    background-color: #FFFFFF;
+}
+
 .team_item {
     color:  #2E2F42;
     font-size: 20px;
@@ -172,29 +164,27 @@ background-color: #FFFFFF;
 }
 <!--footer-->
 .page_footer {
-background-color:#2e2f42;
+background-color: #2E2F42;
 }
 .page_logo {
-    color:#4D5AE5;
     font-family: "Raleway",sans-serif;
-    font-size: 18px;
     font-weight: 700;
+    font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
+    background-color: #2E2F42;
 }
 .page_logo_part {
     color: #f4f4fd;
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    background-color: #2E2F42;
+
 }
 .text {
     color:  #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    background-color: #2E2F42;
 } 
