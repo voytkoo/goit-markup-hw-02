@@ -3,7 +3,7 @@
 <!--head-->
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,28 +11,29 @@
     rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer">
 <link rel="stylesheet" href="./css/styles.css">
 
 </head>
 <!--body-->
 <body>
-    <header>
+    <header class="header">
         <!--nav-->
         <nav class="navigation">
-            <a class="logo" href="./index.html">Web<span class="logo_part">Studio</span></a>
+            <a class="logo" href="./index.html">Web
+                <span class="accent">Studio</span></a>
             <ul>
-                <li> <a class="header_list" href="./index.html">Studio</a></li>
-                <li> <a class="header_list" href="">Portfolio</a></li>
-                <li> <a class="header_list" href="">Contacts</a></li>
+                <li> <a class="header_list" target="_blank" href="./index.html">Studio</a></li>
+                <li> <a class="header_list" target="_blank" href="">Portfolio</a></li>
+                <li> <a class="header_list" target="_blank" href="">Contacts</a></li>
             </ul>
         </nav>
         <!--address-->
-        <address class="contacts">
+        <address class="address">
             <ul>
-                <li><a class="contacts_list" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <li><a class="address_link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li><a class="contacts_list" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                <li><a class="address_link" href="tel:+110001111111">+11 (000) 111-11-11</a>
                 </li>
             </ul>
         </address>
@@ -88,7 +89,7 @@
                     <h3 class="team_item">Camila Garcia</h3>
                     <p class="team_text">Marketing</p>
                 </li>
-                <li>
+                <li class="team-list">
                     <img src="./images/img3.jpg" alt="curly haired man" width="264">
                     <h3 class="team_item">Daniel Wilson</h3>
                     <p class="team_text">UI Designer</p>
