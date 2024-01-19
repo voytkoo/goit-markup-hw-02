@@ -9,7 +9,7 @@ a {
 ul, ol {
 list-style: none;
 }
-<!--logo-->
+/* logo */
 .logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -23,7 +23,8 @@ list-style: none;
 .logo_part {
 color: #2E2F42;
 }
-<!--header_list-->
+
+/* .header_list */
 .header_list {
     font-weight: 500;
     font-size: 16px;
@@ -35,12 +36,12 @@ color: #2E2F42;
 .header_list:focus {
     color: #404BBF;
 }
-<!--contacts-->
+/* contacts */
 
 .contacts {
 font-style: normal;
 }
-<!--contacts_list-->
+/* contacts_list */
 .contacts_link {
     font-size: 16px;
     line-height: 1.5;
@@ -51,7 +52,7 @@ font-style: normal;
 .contacts_link:focus {
     color: #404BBF;
 } 
-<!--section1-->
+/* section1 */
 .page_section {
 background-color: #2E2F42;
 }
@@ -78,7 +79,7 @@ background-color: #2E2F42;
 .title_button:focus {
 background-color: #404BBF;
 }
-<!--section2-->
+/* section2 */
 .section_benefits {
 background-color: #FFF;
 }
@@ -104,7 +105,7 @@ background-color: #FFF;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-<!--section3-->
+/* section3 */
 .section_team {
 background-color: #F4F4FD;
 }
@@ -118,7 +119,7 @@ background-color: #F4F4FD;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.team-list {
+.team_list {
     background-color: #FFFFFF;
 }
 
@@ -135,7 +136,7 @@ background-color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-<!--section4-->
+/* section4 */
 .portfolio {
     background-color: #FFF;
 }
@@ -162,7 +163,7 @@ background-color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-<!--footer-->
+/* footer */
 .page_footer {
 background-color: #2E2F42;
 }
